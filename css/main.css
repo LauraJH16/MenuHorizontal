@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Cabin|Dosis|Indie+Flower|Nunito|Open+Sans|Raleway');
+
+a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+h1 {
+    margin-left: 440px;
+    font-size: 45px;
+    color:rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    padding-left: 160px;
+    list-style: none;
+    margin:0;
+}
+
+li {
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 200px;
+    height: 30px;
+    border-top: 4px solid rgb(255, 255, 255);
+    font-size: 25px;
+    background-color: rgba(65, 63, 63, 0.808);
+    font-family: 'Cabin', sans-serif;
+    cursor: pointer;
+    float: left;
+}
+
+li:hover {
+    background-color: #e0e0e0;
+    border-top: 4px solid #05910c;
+}
+
+li:hover a {
+    color: #05910c;
+}
+
+li:active{
+    background-color: rgb(180, 180, 180);
+    border-top: 4px solid #000000;
+}
+
+li:active a {
+    color:#000000;
+}
+
+span {
+    margin-right:25px;
+    margin-left: -10px;
+    font-size:28px;
+}
